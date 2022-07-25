@@ -1,5 +1,47 @@
-html body {
+html body{
   margin: 0;
   padding: 0;
   background-color: azure;
+}
+
+.container{
+  background-color: blue;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+header{
+  background-color: #ff847c;
+  width: 100%;
+  height: 5em;
+
+  text-align: center;
+}
+
+.main__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+main{
+  background-color: #fecea8;
+  min-height: 600px;
+  width: 70%;
+}
+
+aside{
+  background-color: #99b898;
+  width: 20%;
+}
+
+footer{
+  background-color: #ff847c;
+  width: 100%;
+  height: 5em;
 }
