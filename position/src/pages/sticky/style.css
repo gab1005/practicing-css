@@ -1,0 +1,28 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 300vh;
+  width: 300vw;;
+}
+
+.container{
+  /* no Sticky ele "trava" não saindo da tela, se delemita os limites dosticky usando os atributos de posicionamento top, bottom, left, right */
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin-top: 50vh;
+  margin-left: 50vw;
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}

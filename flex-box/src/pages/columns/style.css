@@ -1,0 +1,47 @@
+html body{
+  margin: 0;
+  padding: 0;
+  background-color: #98FB98;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 2px #4c83dd;
+  margin-bottom: 1em;
+}
+
+main{
+  border: 2px solid tomato;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.itens{
+  background-color: tomato;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  padding: auto 0 0;
+  text-align: center;
+}
+
+footer{
+  border-radius: 0.2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0.5em;
+}
+
+a{
+  width: 4em;
+  height: 2em;
+  background-color: #4c83dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

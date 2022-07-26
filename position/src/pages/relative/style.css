@@ -1,0 +1,29 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+.container{
+  /* basicamente deslocar o elemento em relação ao objeto pai */
+  position: relative;
+  left: 200px;
+  top: 150px;
+  margin-top: 20vh;
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+}
+
+.box{
+  position: relative;
+  top: 250px;
+  left: 250px;
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}

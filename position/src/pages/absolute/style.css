@@ -1,0 +1,29 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+.container{
+  /* o position absolute, tera como referencia um elemento pai com position relative, caso não exista ele tera como referencia o proprio body da pagina */
+  /* ao comentar e descomentar a linha a baixo se percebe a diferença */
+  position: relative;
+  margin-top: 20vh;
+
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+}
+
+.box{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}

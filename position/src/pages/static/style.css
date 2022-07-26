@@ -1,0 +1,21 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  /* padrão, todo elemento vem com propriedade position: static */
+  /* top,bottom, left, right não funcionam */
+  position: static;
+  top: 200px;
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}

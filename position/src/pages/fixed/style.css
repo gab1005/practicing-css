@@ -1,0 +1,26 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 300vh;
+}
+
+.container{
+  /* fica fixo, não se movendo com o scroll da pagina */
+  /* fica como uma especie de mancha na tela, que não se move, e chega sobrepor outros elementos */
+  position: fixed;
+  /* top: 200px; */
+  left: 50px;
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
