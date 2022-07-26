@@ -1,0 +1,46 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.container{
+  /* definir o tipo de display e o "template" inicial */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+
+  /* o grid-template-areas deixa explicito visualmente a localização de cada elemento */
+  grid-template-areas: 
+  "h h"
+  "m a"
+  "f f";
+
+  /* espaços */
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  /* grid-gap: 20px 20px; */
+  grid-gap: 20px;
+}
+
+header{
+  background-color: yellow;
+  grid-area: h;
+}
+
+main{
+  background-color: blue;
+  grid-area: m;
+}
+
+aside{
+  background-color: green;
+  grid-area: a;
+}
+
+footer{
+  background-color: red;
+  grid-area: f;
+}
+

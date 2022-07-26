@@ -1,52 +1,48 @@
 html body{
+  background-color: azure;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: azure;
 }
 
-.container{
-  /* definir o tipo de display e o "template" inicial */
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 20vh 70vh 10vh;
-
-  /* espaços */
-  /* grid-column-gap: 20px;
-  grid-row-gap: 20px; */
-  /* grid-gap: 20px 20px; */
-  grid-gap: 20px;
+h2{
+  text-align: center;
 }
 
-header{
-  background-color: yellow;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+nav{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 90%;
+  height: 4em;
+  margin: 1em auto;
+  border-radius: 0.5em;
 }
 
-main{
+nav li{
   background-color: blue;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  list-style: none;
+  width: 10em;
+  height: 2em;
+  border-radius: 0.3em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-aside{
-  background-color: green;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+nav li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
-footer{
-  background-color: red;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+nav li a:hover{
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1em
 }
 
