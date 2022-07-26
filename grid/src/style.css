@@ -1,0 +1,35 @@
+html body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+header{
+  background-color: yellow;
+}
+
+main{
+  background-color: blue;
+}
+
+aside{
+  background-color: green;
+}
+
+footer{
+  background-color: red;
+}
+
+.container{
+  /* definir o tipo de display e o "template" inicial */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+
+  /* espaços */
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  /* grid-gap: 20px 20px; */
+  grid-gap: 20px;
+}
